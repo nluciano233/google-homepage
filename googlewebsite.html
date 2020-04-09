@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	</head>
+	<body>
+		<style>
+
+html, body {
+
+
+
+margin:0;
+
+padding:0;
+
+}
+.list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lia {
+  display: inline;
+  float: left;
+}
+
+.lib {
+  display: inline;
+  float: right;
+}
+
+#account {
+  background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -13px;
+}
+
+li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#square {
+  background: gray;
+  height: 30px;
+  width: 30px;
+  margin-top:-3px;
+}
+
+
+
+
+.search {
+  
+      background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: auto;
+    width: 482px;
+  padding-left: 20px;
+   }
+.google {
+  content: url('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png');
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  display: block;
+  padding-top: 300px;
+  max-width: 370px;
+  min-width: 370px;
+  padding-bottom: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  border: 1px solid #dfe1e5;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 auto;
+  justify-content: center;
+  
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.page {
+  text-align: center;
+}
+
+
+		</style>
+
+		 <header>
+    <div id="navbar">
+      <ul class="list">
+        <li class="lia"><a>Chi siamo</a></li>
+        <li class="lia"><a>Google Store</a></li>
+        <li class="lib"><a><div id="account"></div></a></li>
+        <li class="lib"><a><div id="square"></div></a></li>
+        <li class="lib"><a>Immagini</a></li>
+        <li class="lib"><a href="https://images-na.ssl-images-amazon.com/images/I/3159DU5Gy9L._AC_.jpg">Gmail</a></li>
+        
+        </ul>
+    </div>
+  </header>
+  <div class="page">
+    <img class="google">
+    <input type="text" placeholder="Search there" class="search">
+    <ul>
+      <li class="float"> <input type="submit" value="Cerca con Google" class="button"></li>
+      <li><input type="submit" value="Cerca con Google" class="button"></li>
+    </ul>  
+  </div>
+  
+	</body>
+</html>
